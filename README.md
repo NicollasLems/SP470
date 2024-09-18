@@ -74,4 +74,20 @@ Estrutura Condicional (if):
         }"
 O trecho acima serve para garantir que quando o jogador rotacionar a câmera no eixo X e Y, a câmera não se movimente no eixo Y.
 
+Assets utilizados:
+FREE - Modular Character - Fantasy RPG Human Male
+https://assetstore.unity.com/packages/3d/characters/humanoids/humans/free-modular-character-fantasy-rpg-human-male-228952
+Villager Animations FREE
+https://assetstore.unity.com/packages/3d/animations/villager-animations-free-157920
+FREE Low Poly Human - RPG Character
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/free-low-poly-human-rpg-character-219979
+Low Poly Farm Pack Lite
+https://assetstore.unity.com/packages/3d/environments/industrial/low-poly-farm-pack-lite-188100
+Madrinha Eunice
+https://sketchfab.com/3d-models/madrinha-eunice-deolinda-madre-fef0930308d34d3681dbf8845f64dc59
+RPG Poly Pack - Lite
+https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-pack-lite-148410
+Farm Animals Set
+https://assetstore.unity.com/packages/3d/farm-animals-set-97945
+
 https://drive.google.com/drive/folders/1ohX-2R7PknoC_GAVfwDm20zMsjciNwbL?usp=drive_link
