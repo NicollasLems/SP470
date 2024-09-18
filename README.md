@@ -12,7 +12,7 @@ Historia: Juan decidi dormir após um dia cansativo de aula. Nisso ele acorda no
 
 Músicas: A Vida É Desafio - Racionais MC's, Afro-X, Otus 500 - Racionais MC's, Vivão e Vivendo - Racionais MC's, (A)Bala - Fabio Brazza, Paiva Prod, Tião Preto, Rua da Glória - Aloysio Letra.
 
-A proposta do nosso grupo é fazer um game de, onde o jogador, no papel de um jovem estudante periférico, deve investigar o desaparecimento da estátua de Madrinha Eunice (fundadora da primeira escola de samba de São Paulo, a Lavapés, na década de 30), que se localiza no bairro da Liberdade. Ao longo da história o jogador descobrirá que a estátua de alguma forma foi parar no passado, e agora terá que recuperá-la. O jogador deverá coletar pistas espalhadas pelo mapa, para depois montar um quebra-cabeça para resolver o caso, o jogador irá ao passado em uma vila, ele deve encontrar os pedaços da estátua de Madrinha Eunice que foram separados para reconstruí-la.
+A proposta do nosso grupo é fazer um game endie, onde o jogador, no papel de um jovem estudante periférico, deve investigar o desaparecimento da estátua de Madrinha Eunice (fundadora da primeira escola de samba de São Paulo, a Lavapés, na década de 30), que se localiza no bairro da Liberdade. Ao longo da história o jogador descobrirá que a estátua de alguma forma foi parar no passado, e agora terá que recuperá-la. O jogador deverá coletar pistas espalhadas pelo mapa, para depois montar um quebra-cabeça para resolver o caso, o jogador irá ao passado em uma vila, ele deve encontrar os pedaços da estátua de Madrinha Eunice que foram separados para reconstruí-la.
 
 A tela inicial do jogo foi feita no Piskel, o fundo tem a cor azul para representar o céu pois na teoria das cores o azul representa a harmonia, os portoes torii em referencia a propria Liberdade junto com lanternas japonesas, as portas foram colocadas por causa que no jogo elas são o meio que faz o personagem trocar de cenario, as flores são para representar a parte mais rural sendo o passado do jogo.
 
@@ -89,5 +89,11 @@ RPG Poly Pack - Lite
 https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-pack-lite-148410
 Farm Animals Set
 https://assetstore.unity.com/packages/3d/farm-animals-set-97945
+City People Lite
+https://assetstore.unity.com/packages/3d/characters/city-people-lite-260446
+Simple City pack plain
+https://assetstore.unity.com/packages/3d/environments/urban/simple-city-pack-plain-100348
+Bolinha de Papel
+https://sketchfab.com/3d-models/paper-low-bab9b0a4a3194165be4ac939c565d39f
 
 https://drive.google.com/drive/folders/1ohX-2R7PknoC_GAVfwDm20zMsjciNwbL?usp=drive_link
