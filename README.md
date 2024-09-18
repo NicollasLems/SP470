@@ -99,5 +99,6 @@ Free: House Interior
 https://assetstore.unity.com/packages/3d/props/interior/free-house-interior-223416
 FREE Skybox Extended Shader
 https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400
+os assets da Madrinha Eunice e da bolinha de papel foram pegos no site Sketchfab
 
 https://drive.google.com/drive/folders/1ohX-2R7PknoC_GAVfwDm20zMsjciNwbL?usp=drive_link
