@@ -74,31 +74,32 @@ Estrutura Condicional (if):
         }"
 O trecho acima serve para garantir que quando o jogador rotacionar a câmera no eixo X e Y, a câmera não se movimente no eixo Y.
 
-Assets utilizados:
-FREE - Modular Character - Fantasy RPG Human Male
-https://assetstore.unity.com/packages/3d/characters/humanoids/humans/free-modular-character-fantasy-rpg-human-male-228952
-Villager Animations FREE
-https://assetstore.unity.com/packages/3d/animations/villager-animations-free-157920
-FREE Low Poly Human - RPG Character
-https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/free-low-poly-human-rpg-character-219979
-Low Poly Farm Pack Lite
-https://assetstore.unity.com/packages/3d/environments/industrial/low-poly-farm-pack-lite-188100
-Madrinha Eunice
-https://sketchfab.com/3d-models/madrinha-eunice-deolinda-madre-fef0930308d34d3681dbf8845f64dc59
-RPG Poly Pack - Lite
-https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-pack-lite-148410
-Farm Animals Set
-https://assetstore.unity.com/packages/3d/farm-animals-set-97945
-City People Lite
-https://assetstore.unity.com/packages/3d/characters/city-people-lite-260446
-Simple City pack plain
-https://assetstore.unity.com/packages/3d/environments/urban/simple-city-pack-plain-100348
-Bolinha de Papel
-https://sketchfab.com/3d-models/paper-low-bab9b0a4a3194165be4ac939c565d39f
-Free: House Interior
-https://assetstore.unity.com/packages/3d/props/interior/free-house-interior-223416
-FREE Skybox Extended Shader
-https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400
-os assets da Madrinha Eunice e da bolinha de papel foram pegos no site Sketchfab
+Assets utilizados:<br>
+FREE - Modular Character - Fantasy RPG Human Male<br>
+https://assetstore.unity.com/packages/3d/characters/humanoids/humans/free-modular-character-fantasy-rpg-human-male-228952<br>
+Villager Animations FREE<br>
+https://assetstore.unity.com/packages/3d/animations/villager-animations-free-157920<br>
+FREE Low Poly Human - RPG Character<br>
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/free-low-poly-human-rpg-character-219979<br>
+Low Poly Farm Pack Lite<br>
+https://assetstore.unity.com/packages/3d/environments/industrial/low-poly-farm-pack-lite-188100<br>
+Madrinha Eunice<br>
+https://sketchfab.com/3d-models/madrinha-eunice-deolinda-madre-fef0930308d34d3681dbf8845f64dc59<br>
+RPG Poly Pack - Lite<br>
+https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-pack-lite-148410<br>
+Farm Animals Set<br>
+https://assetstore.unity.com/packages/3d/farm-animals-set-97945<br>
+City People Lite<br>
+https://assetstore.unity.com/packages/3d/characters/city-people-lite-260446<br>
+Simple City pack plain<br>
+https://assetstore.unity.com/packages/3d/environments/urban/simple-city-pack-plain-100348<br>
+Bolinha de Papel<br>
+https://sketchfab.com/3d-models/paper-low-bab9b0a4a3194165be4ac939c565d39f<br>
+Free: House Interior<br>
+https://assetstore.unity.com/packages/3d/props/interior/free-house-interior-223416<br>
+FREE Skybox Extended Shader<br>
+https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400<br>
+
+Os assets da Madrinha Eunice e da bolinha de papel foram pegos no site Sketchfab
 
 https://drive.google.com/drive/folders/1ohX-2R7PknoC_GAVfwDm20zMsjciNwbL?usp=drive_link
