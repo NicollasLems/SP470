@@ -95,5 +95,9 @@ Simple City pack plain
 https://assetstore.unity.com/packages/3d/environments/urban/simple-city-pack-plain-100348
 Bolinha de Papel
 https://sketchfab.com/3d-models/paper-low-bab9b0a4a3194165be4ac939c565d39f
+Free: House Interior
+https://assetstore.unity.com/packages/3d/props/interior/free-house-interior-223416
+FREE Skybox Extended Shader
+https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400
 
 https://drive.google.com/drive/folders/1ohX-2R7PknoC_GAVfwDm20zMsjciNwbL?usp=drive_link
