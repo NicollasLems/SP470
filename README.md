@@ -95,9 +95,7 @@ Movimentação:
         }"
 O trecho acima serve para garantir que quando o jogador rotacionar a câmera no eixo X e Y, a câmera não se movimente no eixo Y.
 
-Colision classes e objetos:
-
-*Classes e Objetos:*
+*Colision classes e objetos:*
 - A classe "coletar" herda de MonoBehaviour, permitindo que o script seja anexado ao objeto do Unity.
 
 *Variáveis de Instância:*
