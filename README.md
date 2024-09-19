@@ -1,5 +1,7 @@
 Integrantes: João Paulo B. P. C. Filho, Kevin Novais Bezerra, Murilo Rangel de França e Nicollas Lemes de Matos
+
 Série: 2º Programação de Jogos Digitais
+
 
 Tema:
 
