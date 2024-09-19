@@ -30,6 +30,7 @@ Músicas:
 - Rua da Glória - Aloysio Letra.
 
 Explicação do Código:
+
 Classes e Objetos da câmera:
 - A classe "camera" herda as funções de MonoBehaviour, que é uma classe base do Unity, que permite que o script seja associado a objetos no Unity (como a câmera).
 Uso de Atributos Públicos e Privados:
@@ -46,7 +47,10 @@ O uso do Cursor do Mouse:
 - Usamos as propriedades Cursor.visible, para sumir com o mouse, e Cursor.lockState, para travar o mouse no centro da tela. Essas propriedades são características típicas de jogos em primeira pessoa.
 
 
-  *Movimentação*:
+
+
+
+Movimentação:
 - Classes e Objetos:
 - A classe "movimento" herda de MonoBehaviour, permitindo que o script seja anexado à objetos em Unity. Usamos essa classe para movimentar, controlar, a câmera, que será o nosso personagem principal (jogo em primeira pessoa).
 
@@ -94,7 +98,14 @@ Estrutura Condicional (if):
 O trecho acima serve para garantir que quando o jogador rotacionar a câmera no eixo X e Y, a câmera não se movimente no eixo Y.
 
 
-Colision usado:
+
+
+
+
+
+
+
+Colisão:
 *Classes e Objetos:*
 - A classe "coletar" herda de MonoBehaviour, permitindo que o script seja anexado ao objeto do Unity.
 
@@ -132,6 +143,15 @@ Colision usado:
 *Interações Físicas (Colliders e Triggers):*
 - OnCollisionEnter() é usado para detectar colisões físicas quando os objetos se chocam.
 - OnTriggerEnter() detecta quando um objeto entra em um Trigger Collider (colisores que permitem a passagem sem colisão física). Triggers são úteis para detecção de áreas ou eventos, como entrar em uma área que desencadeia algum efeito no jogo.
+
+
+
+
+
+
+
+
+
 
 Assets utilizados:
 - FREE - Modular Character - Fantasy RPG Human Male
