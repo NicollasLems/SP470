@@ -97,42 +97,44 @@ O trecho acima serve para garantir que quando o jogador rotacionar a câmera no 
 
 Colision classes e objetos:
 
-A classe "coletar" herda de MonoBehaviour, permitindo que o script seja anexado ao objeto do Unity.
-Variáveis de Instância:
+*Classes e Objetos:*
+- A classe "coletar" herda de MonoBehaviour, permitindo que o script seja anexado ao objeto do Unity.
 
-int pegar: essa variável do tipo inteiro é utilizada para armazenar a contagem de itens coletados. Essa variável é iniciada com o valor 0.
-Função Start():
+*Variáveis de Instância:*
+- *int pegar:* Essa variável do tipo inteiro é utilizada para armazenar a contagem de itens coletados. Essa variável é iniciada com o valor 0.
 
-Esse método é executado uma vez, no início do jogo. Aqui, a variável "pegar" é inicializada com o valor 0.
-Detecção de Colisões:
 
-Em nosso código, utilizamos os dois principais métodos para detectar interações físicas no Unity: -- OnCollisionEnter(Collision collision):
+*Função Start():*
+- Esse método é executado uma vez, no início do jogo. Aqui, a variável "pegar" é inicializada com o valor 0.
 
-Esse método é chamado automaticamente quando o objeto ao qual o script está anexado colide com outro objeto com Collider e Rigidbody.
+*Detecção de Colisões:*
+- Em nosso código, utilizamos os dois principais métodos para detectar interações físicas no Unity:
+--> *OnCollisionEnter(Collision collision):*
+- Esse método é chamado automaticamente quando o objeto ao qual o script está anexado colide com outro objeto com Collider e Rigidbody.
 
-Usamos em nosso código, collision.gameObject.tag, para identificar o tipo de objeto com o qual ocorreu a colisão, verificando sua tag (em nosso código, "caixa"). Se o objeto colidido tiver a tag "caixa", o código executa Destroy(collision.gameObject), o que remove esse objeto da cena.
+- Usamos em nosso código, *collision.gameObject.tag*, para identificar o tipo de objeto com o qual ocorreu a colisão, verificando sua tag (em nosso código, "caixa"). Se o objeto colidido tiver a tag "caixa", o código executa Destroy(collision.gameObject), o que remove esse objeto da cena.
 
--- OnTriggerEnter(Collider collision):
+--> *OnTriggerEnter(Collider collision):*
+- Esse método é chamado, exclusivamente, quando o objeto entra em um Trigger Collider.
+- Similar ao método anterior (collision.gameObject.tag), ele usa collision.gameObject.tag para verificar a tag do objeto.
+- Em nosso código também usamos um Debug.Log para exibir no console tanto a tag do objeto, quanto o valor de pegar.
 
-Esse método é chamado, exclusivamente, quando o objeto entra em um Trigger Collider.
-Similar ao método anterior (collision.gameObject.tag), ele usa collision.gameObject.tag para verificar a tag do objeto.
-Em nosso código também usamos um Debug.Log para exibir no console tanto a tag do objeto, quanto o valor de pegar.
-Manipulação de Tags:
+*Manipulação de Tags:*
+- O uso de tags permite identificar o tipo de objeto com o qual o personagem está interagindo. As tags são strings atribuídas a objetos no Unity para facilitar sua categorização e manipulação. Um exemplo, é para diferenciar os objetos com a tag "caixa", de outros objetos.
 
-O uso de tags permite identificar o tipo de objeto com o qual o personagem está interagindo. As tags são strings atribuídas a objetos no Unity para facilitar sua categorização e manipulação. Um exemplo, é para diferenciar os objetos com a tag "caixa", de outros objetos.
-Estrutura Condicional (switch):
+*Estrutura Condicional (switch):*
+- Utilizamos switch case, em nosso código, para comparar a tag do objeto colidido. Se a tag for "caixa", o código deletara esse objeto da cena.
 
-Utilizamos switch case, em nosso código, para comparar a tag do objeto colidido. Se a tag for "caixa", o código deletara esse objeto da cena.
-Função Destroy():
+*Função Destroy():*
+- A função Destroy() é usada para remover um objeto do jogo, no caso, o objeto que possui a tag "caixa". Isso simula a coleta do objeto, removendo-o da cena quando o jogador interage com ele.
 
-A função Destroy() é usada para remover um objeto do jogo, no caso, o objeto que possui a tag "caixa". Isso simula a coleta do objeto, removendo-o da cena quando o jogador interage com ele.
-Debugging:
+*Debugging:*
+- Usamos Debug.Log() para exibir no console a tag do objeto com o qual houve colisão, e o valor de pegar, ajudando a monitorar o comportamento do código durante a execução.
 
-Usamos Debug.Log() para exibir no console a tag do objeto com o qual houve colisão, e o valor de pegar, ajudando a monitorar o comportamento do código durante a execução.
-Interações Físicas (Colliders e Triggers):
+*Interações Físicas (Colliders e Triggers):*
+- OnCollisionEnter() é usado para detectar colisões físicas quando os objetos se chocam.
+- OnTriggerEnter() detecta quando um objeto entra em um Trigger Collider (colisores que permitem a passagem sem colisão física). Triggers são úteis para detecção de áreas ou eventos, como entrar em uma área que desencadeia algum efeito no jogo.
 
-OnCollisionEnter() é usado para detectar colisões físicas quando os objetos se chocam.
-OnTriggerEnter() detecta quando um objeto entra em um Trigger Collider (colisores que permitem a passagem sem colisão física). Triggers são úteis para detecção de áreas ou eventos, como entrar em uma área que desencadeia algum efeito no jogo.
 Código de coletar da primeira cena:
 
 using System.Collections; using System.Collections.Generic; using UnityEngine;
