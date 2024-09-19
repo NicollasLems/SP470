@@ -31,7 +31,7 @@ Músicas:
 
 Explicação do Código:
 
-Classes e Objetos da câmera:
+Classes e Objetos da camêra:
 - A classe "camera" herda as funções de MonoBehaviour, que é uma classe base do Unity, que permite que o script seja associado a objetos no Unity (como a câmera).
 Uso de Atributos Públicos e Privados:
 - Fizemos a utilização de atributos públicos e privados. Deixamos todas as propriedades e variáveis privadas, menos a variável "sensibilidade", que deixamos pública, para que o usuário possa definir a sensibilidade que deseja para o mouse.
