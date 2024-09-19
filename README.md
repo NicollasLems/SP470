@@ -3,35 +3,36 @@ Integrantes: João Paulo B. P. C. Filho, Kevin Novais Bezerra, Murilo Rangel de 
 Série: 2º Programação de Jogos Digitais
 
 
-Tema:
+- Tema:
 
 O trabalho baseia-se no tema “São Paulo 470 anos” com isso decidimos desenvolver uma temática atemporal, por isso escolhemos o “racismo e a escravidão” que são assuntos que repercutem até os dias de hoje, queríamos mostrar como isso ainda persiste só que de forma mascarada, com isso vieram as pesquisas sobre os locais de São Paulo e suas histórias. Como primeiro local escolhemos o Bairro da Liberdade, muito pelo seu contexto histórico antes chamado de Campo da Força onde os escravos e transgressores da lei eram mortos sendo essa a sua "Liberdade" a região também era ocupada majoritariamente por pessoas negras e hoje é conhecido como Japão-Liberdade uma maneira de tentar apagar o passado desse lugar, outro motivo foi a estátua da Madrinha Eunice (fundadora da primeira escola de samba de São Paulo e ainda funcional, a Lavapés, na década de 30 e foi ativista do movimento negro), em 2023 ocorreu um discussão a respeito de um show que cobriu totalmente a estátua gerando uma grande repercussão e pensamos em adicionar ela ao jogo, como queríamos representar o passado, a outra parte do jogo seria uma vila representado um tempo muito antes da industrialização da cidade de São Paulo.
 
-Proposta do jogo:
+- Proposta do jogo:
 A proposta do nosso grupo é fazer um game conceitual (são jogos, onde os jogadores são submetidos a estímulos que visam desenvolver o entendimento individual/coletivo de alguns conteúdos gerais e específicos do jogo), onde o jogador, no papel de um jovem estudante periférico, deve investigar o desaparecimento da estátua de Madrinha Eunice que se localiza no bairro da Liberdade. Ao longo da história o jogador descobrirá que a estátua de alguma forma foi parar no passado, e agora terá que recuperá-la. Tendo de coletar pistas espalhadas pelas fases, no passado em uma vila, encontrará a estátua de que foi levada. No entanto fica subentendido ao jogador que na verdade, tudo não se passa de um sonho e que a estátua não foi levada ao passado de fato, mas sim que o seu sentido ficou preso ao passado
 
-Nome do Jogo:
+- Nome do Jogo:
 
 O jogo recebeu o nome Sonho De Outrora que é um título poético e evocativo por sugerir memórias, esperanças e aspirações do passado. "Outrora" é uma palavra que remete a tempos passados, dando um tom nostálgico e reflexivo. "Sonhos" referem-se aos desejos ou ambições que houveram em tempos anteriores. Juntas, estas palavras implicam em um retorno emocional entre passado e presente.
-Protagonista:
 
+- Protagonista:
 O protagonista é um estudante de 17 anos, chamado Juan Martins, tivemos a ideia de ele ser um estudante por nós sermos estudantes e ser possível se sentir como o personagem e por temos experiências próprias nesse meio, ele é inocente, sonhador e corintiano a ideia da inocência e do sonhador se vem pelo fato dele ser jovem e não tem experiências de como é o mundo por ser um jovem moderno tem consciência do que seu povo passou e seus “privilégios” que tem de viver na sociedade moderna, o lado torcedor ao Corinthians foi por causa que grande parte do grupo é corintiano e que o futebol é muito importante para vários brasileiros e integrantes do grupo.
 
-História:
+- História:
 Após um dia cansativo de aula Juan decide deita-se em sua cama e dormir. Nisso ele acorda no Bairro da Liberdade e descobre que a estátua de Madrinha Eunice desapareceu, explorando melhor o bairro e coletando pistas espalhadas, consegue descobrir que ela está no passado e que precisa encontrá-la nisso precisa procurar por uma porta específica que o levará até o passado. Conseguindo encontrar a porta é levado ao passado em uma pequena vila onde terá de encontrar a estátua que foi dividida em diferentes pedaços e deve reconstrui-la, Juan acordará vendo que foi apenas um sonho.
-Tela de Início:
 
+- Tela de Início:
 A tela inicial do jogo foi feita no Piskel, o fundo tem a cor azul para representar o céu, pois na teoria das cores o azul representa a harmonia, os postes vermelhos em referência a própria Liberdade junto com lanternas japonesas, as portas foram colocadas por causa que no jogo elas são o meio que faz o personagem trocar de cenário, as flores são para representar a parte mais rural sendo o passado do jogo.
-Cenário:
 
+- Cenário:
 A primeira é onde você inicia o jogo que é a sua casa onde há três cômodos, a sala, o quarto e a cozinha, também possui um banheiro, na sala possui sofá, tv, uma mesinha, na cozinha possui uma mesa, algumas cadeiras, um fogão, geladeira e alguns armários, no quarto tem a cama, uma mesinha, guarda-roupa e uma bateria, no banheiro tem a pia, banheira, cesto de lavar roupa e uma máquina de lavar. Na segunda cena se passa na liberdade, onde tem prédios, ruas, calçadas, postes vermelhos orientais, pessoas, pistas espalhadas brilhando em amarelo. Há terceira cena se passa no passado em uma pequena vila, campo aberto, árvores, poço, casas de madeira, a estátua da Madrinha Eunice em diferentes pedaços.
-Músicas:
 
+- Músicas:
 A Vida É Desafio - Racionais MC's
 Afro-X, Otus 500 - Racionais MC's
 Vivão e Vivendo - Racionais MC's
 (A)Bala - Fabio Brazza -Paiva Prod - Tião Preto
 Rua da Glória - Aloysio Letra.
+
 Explicação do Código:
 
 Classes e Objetos da câmera:
@@ -72,7 +73,6 @@ No final de cada frame, o vetor m é redefinido para 0, usando a função m.Set(
 Estrutura Condicional (if):
 
 Fizemos o uso de várias condições "if". Elas são usadas para verificar a entrada do usuário, e aplicar as restrições de movimento, garantindo que o objeto se comporte conforme o esperado. Um exemplo é o trecho: "if (transform.position.y 2.0){
-
 
       transform.position = new Vector3(transform.position.x, 2.0f, transform.position.z);
   }
@@ -129,9 +129,7 @@ public class coletar : MonoBehaviour { int pegar;
 
 // Start is called before the first frame update
 void Start(){
-
     pegar = 0;
-
 }
 
 private void OnCollisionEnter(Collision)
@@ -142,7 +140,6 @@ private void OnCollisionEnter(Collision)
         case "caixa":
             Destroy(collision.gameObject);
             break;
-
     }
 
 }
@@ -163,9 +160,7 @@ public class coletar : MonoBehaviour { int pegar;
 
 // Start is called before the first frame update
 void Start(){
-
     pegar = 1;
-
 }
 
 private void OnCollisionEnter(Collision)
@@ -176,7 +171,6 @@ private void OnCollisionEnter(Collision)
         case "caixa":
             Destroy(collision.gameObject);
             break;
-
     }
 
 }
@@ -214,7 +208,6 @@ private void OnCollisionEnter(Collision)
         case "estatua":
             Destroy(collision.gameObject);
             break;
-
     }
 
 }
@@ -242,7 +235,6 @@ private void OnCollisionEnter(Collision)
     {
         case "porta":
 if (Input.GetKey(KeyCode.E)){ SceneManager.LoadScene("cena2"); } break;
-
     }
 
 }
@@ -262,9 +254,7 @@ public class coletar : MonoBehaviour { int pegar;
 
 // Start is called before the first frame update
 void Start(){
-
-    pegar = 1;
-
+      pegar = 1;
 }
 
 private void OnCollisionEnter(Collision)
@@ -275,7 +265,6 @@ private void OnCollisionEnter(Collision)
         case "caixa":
             Destroy(collision.gameObject);
             break;
-
     }
 
 }
