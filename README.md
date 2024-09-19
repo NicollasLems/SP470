@@ -35,6 +35,22 @@ Rua da Glória - Aloysio Letra.
 São, São Paulo -Tom Zé.
 Sampa Midnight - Itamar Assumpção
 
+- Cores:
+Cores da Tela Inicial
+Contorno/Fios(#000)
+Fundo das Placas/Flores(#FFF)
+Borda das placa(#f7070)
+Sombra da Placa(#8d0000)
+2 Sombra da Placa(#b60909) 
+Portas/Letreiro(#70441e)
+Sombra da Portas/Letreiro(#62360f)
+2 Sombra da Portas/Letreiro(#4e2909)
+Maçaneta(#f7b607)
+Sombra da Maçaneta(#be8e0b)
+Luz/Miolho da Flor(#ffa506)
+Fundo(#0783f7)
+Sombra da Flor(#eae3e3)
+
 Explicação do Código:
 
 Classes e Objetos da câmera:
