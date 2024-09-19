@@ -32,6 +32,8 @@ Afro-X, Otus 500 - Racionais MC's
 Vivão e Vivendo - Racionais MC's
 (A)Bala - Fabio Brazza -Paiva Prod - Tião Preto
 Rua da Glória - Aloysio Letra.
+São São Paulo -Tom Zé.
+Sampa Midnight - Itamar Assumpção
 
 Explicação do Código:
 
