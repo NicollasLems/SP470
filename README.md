@@ -31,13 +31,27 @@ Músicas:
 Explicação do Código:
 
 Classes e Objetos da câmera:
-A classe "camera" herda as funções de MonoBehaviour, que é uma classe base do Unity, que permite que o script seja associado a objetos no Unity (como a câmera). Uso de Atributos Públicos e Privados:
- Fizemos a utilização de atributos públicos e privados. Deixamos todas as propriedades e variáveis privadas, menos a variável "sensibilidade", que deixamos pública, para que o usuário possa definir a sensibilidade que deseja para o mouse. Função Start():
-Usamos o método Start, para configurar o cursor do mouse, tornando-o invisível e fixo no centro da tela usando Cursor.lockState. Função Update():
-Usamos este método para a captura do movimento do mouse usando Input.GetAxis("Mouse X") e Input.GetAxis("Mouse Y"), multiplicando esses valores pela variável "sensibilidade". Uso do "Transform":
-O transform.eulerAngles, foi usado para alterar a rotação da câmera com base no movimento do mouse, aplicando a rotação nos eixos X e Y. Entrada de Informações a partir do Usuário:
-Usamos Input.GetAxis("Mouse X"), para controlar a câmera no eixo X, e Input.GetAxis("Mouse Y"), para controlar a câmera no eixo Y. Essas propriedades permitem capturar os movimentos do mouse do jogador, sendo convertidos em valores de rotação da câmera. O uso do Cursor do Mouse:
-Usamos as propriedades Cursor.visible, para sumir com o mouse, e Cursor.lockState, para travar o mouse no centro da tela. Essas propriedades são características típicas de jogos em primeira pessoa.
+*Classes e Objetos:*
+- A classe "camera" herda as funções de MonoBehaviour, que é uma classe base do Unity, que permite que o script seja associado a objetos no Unity (como a câmera).
+
+*Uso de Atributos Públicos e Privados:*
+- Fizemos a utilização de atributos públicos e privados. Deixamos todas as propriedades e variáveis privadas, menos a variável "sensibilidade", que deixamos pública, para que o usuário possa definir a sensibilidade que deseja para o mouse.
+
+*Função Start():*
+- Usamos o método Start, para configurar o cursor do mouse, tornando-o invisível e fixo no centro da tela usando Cursor.lockState.
+
+*Função Update():*
+- Usamos este método para a captura do movimento do mouse usando Input.GetAxis("Mouse X") e Input.GetAxis("Mouse Y"), multiplicando esses valores pela variável "sensibilidade".
+
+*Uso do "Transform":*
+- O transform.eulerAngles, foi usado para alterar a rotação da câmera com base no movimento do mouse, aplicando a rotação nos eixos X e Y.
+
+*Entrada de Informações a partir do Usuário:*
+- Usamos Input.GetAxis("Mouse X"), para controlar a câmera no eixo X, e Input.GetAxis("Mouse Y"), para controlar a câmera no eixo Y. Essas propriedades permitem capturar os movimentos do mouse do jogador, que são convertidos em valores de rotação da câmera.
+
+*O uso do Cursor do Mouse:*
+- Usamos as propriedades Cursor.visible, para sumir com o mouse, e Cursor.lockState, para travar o mouse no centro da tela. Essas propriedades são características típicas de jogos em primeira pessoa.
+
 Movimentação:
 
 Classes e Objetos:
