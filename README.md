@@ -134,7 +134,7 @@ O trecho acima serve para garantir que quando o jogador rotacionar a câmera no 
 - OnTriggerEnter() detecta quando um objeto entra em um Trigger Collider (colisores que permitem a passagem sem colisão física). Triggers são úteis para detecção de áreas ou eventos, como entrar em uma área que desencadeia algum efeito no jogo.
 
 
-Código de coletar da primeira cena:
+*Código de coletar da primeira cena:*
 
 using System.Collections;
 using System.Collections.Generic;
@@ -170,7 +170,7 @@ public class coletar : MonoBehaviour
 }
 
 
-Código de coletar da segunda cena:
+*Código de coletar da segunda cena:*
 
 using System.Collections;
 using System.Collections.Generic;
@@ -216,7 +216,7 @@ SceneManager.LoadScene("cena3")
 }
 
 
-Código de coletar da terceira cena:
+*Código de coletar da terceira cena:*
 
 using System.Collections;
 using System.Collections.Generic;
@@ -330,7 +330,6 @@ SceneManager.LoadScene("cena3")
 }
 
 }
-
 
 Assets utilizados:
 - FREE - Modular Character - Fantasy RPG Human Male
