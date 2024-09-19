@@ -27,12 +27,12 @@ A tela inicial do jogo foi feita no Piskel, o fundo tem a cor azul para represen
 A primeira é onde você inicia o jogo que é a sua casa onde há três cômodos, a sala, o quarto e a cozinha, também possui um banheiro, na sala possui sofá, tv, uma mesinha, na cozinha possui uma mesa, algumas cadeiras, um fogão, geladeira e alguns armários, no quarto tem a cama, uma mesinha, guarda-roupa e uma bateria, no banheiro tem a pia, banheira, cesto de lavar roupa e uma máquina de lavar. Na segunda cena se passa na liberdade, onde tem prédios, ruas, calçadas, pessoas, pistas espalhadas brilhando em amarelo. Há terceira cena se passa no passado em uma pequena vila, campo aberto, árvores, poço, casas de madeira, a estátua da Madrinha Eunice.
 
 - Músicas:
-A Vida É Desafio - Racionais MC's
-Afro-X, Otus 500 - Racionais MC's
+A Vida É Desafio - Racionais MC's, Afro-X 
+Otus 500 - Racionais MC's
 Vivão e Vivendo - Racionais MC's
 (A)Bala - Fabio Brazza -Paiva Prod - Tião Preto
 Rua da Glória - Aloysio Letra.
-São São Paulo -Tom Zé.
+São, São Paulo -Tom Zé.
 Sampa Midnight - Itamar Assumpção
 
 Explicação do Código:
