@@ -145,12 +145,202 @@ Colisão:
 - OnTriggerEnter() detecta quando um objeto entra em um Trigger Collider (colisores que permitem a passagem sem colisão física). Triggers são úteis para detecção de áreas ou eventos, como entrar em uma área que desencadeia algum efeito no jogo.
 
 
+Código de coletar da primeira cena:
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class coletar : MonoBehaviour
+{
+    int pegar;
+
+    // Start is called before the first frame update
+    void Start(){
+        pegar = 0;
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "caixa":
+                Destroy(collision.gameObject);
+                break;
+
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        Debug.Log(pegar);
+    }
+
+}
 
 
+Código de coletar da segunda cena:
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+UnityEngine.SceneManagement;
+
+public class coletar : MonoBehaviour
+{
+    int pegar;
+
+    // Start is called before the first frame update
+    void Start(){
+        pegar = 1;
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "caixa":
+                Destroy(collision.gameObject);
+                break;
+
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        Debug.Log(pegar);
+    }
+
+ // Update is called once per frame
+    void Update(){
+if (pegar >= 4){
+SceneManager.LoadScene("cena3")
+
+}
+
+}
+
+}
 
 
+Código de coletar da terceira cena:
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class coletar : MonoBehaviour
+{
+    int pegar;
+
+    // Start is called before the first frame update
+    void Start(){
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "estatua":
+                Destroy(collision.gameObject);
+                break;
+
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+       
+    }
+
+}
 
 
+*Código da porta:*
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+UnityEngine.SceneManagement;
+
+public class sair : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start(){
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "porta":
+if (Input.GetKey(KeyCode.E)){
+SceneManager.LoadScene("cena2");
+}
+                break;
+
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+    }
+
+}
+
+
+*Código para mudança de cena:*
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+UnityEngine.SceneManagement;
+
+public class coletar : MonoBehaviour
+{
+    int pegar;
+
+    // Start is called before the first frame update
+    void Start(){
+        pegar = 1;
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "caixa":
+                Destroy(collision.gameObject);
+                break;
+
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        Debug.Log(pegar);
+    }
+
+ // Update is called once per frame
+    void Update(){
+if (pegar >= 4){
+SceneManager.LoadScene("cena3")
+
+}
+
+}
+
+}
 
 
 Assets utilizados:
