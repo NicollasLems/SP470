@@ -46,7 +46,7 @@ O uso do Cursor do Mouse:
 - Usamos as propriedades Cursor.visible, para sumir com o mouse, e Cursor.lockState, para travar o mouse no centro da tela. Essas propriedades são características típicas de jogos em primeira pessoa.
 
 
-  Movimentação:
+  *Movimentação*:
 - Classes e Objetos:
 - A classe "movimento" herda de MonoBehaviour, permitindo que o script seja anexado à objetos em Unity. Usamos essa classe para movimentar, controlar, a câmera, que será o nosso personagem principal (jogo em primeira pessoa).
 
