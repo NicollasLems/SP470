@@ -36,7 +36,7 @@ São, São Paulo -Tom Zé.
 Sampa Midnight - Itamar Assumpção
 
 - Cores:
-Cores da Tela Inicial
+Cores da tela inicial
 Contorno/Fios(#000)
 Fundo das Placas/Flores(#FFF)
 Borda das placa(#f7070)
