@@ -135,70 +135,77 @@ O trecho acima serve para garantir que quando o jogador rotacionar a câmera no 
 
 Código de coletar da primeira cena:
 
-using System.Collections; using System.Collections.Generic; using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class coletar : MonoBehaviour { int pegar;
-
-// Start is called before the first frame update
-void Start(){
-
-    pegar = 0;
-
-}
-
-private void OnCollisionEnter(Collision collision)
+public class coletar : MonoBehaviour
 {
-    Debug.Log(collision.gameObject.tag);
-    switch (collision.gameObject.tag)
-    {
-        case "caixa":
-            Destroy(collision.gameObject);
-            break;
+    int pegar;
+
+    // Start is called before the first frame update
+    void Start(){
+        pegar = 0;
 
     }
 
-}
-private void OnTriggerEnter(Collider collision)
-{
-    Debug.Log(collision.gameObject.tag);
-    Debug.Log(pegar);
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "caixa":
+                Destroy(collision.gameObject);
+                break;
 
-}
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        Debug.Log(pegar);
+    }
 
 }
 
 Código de coletar da segunda cena:
 
-using System.Collections; using System.Collections.Generic; using UnityEngine; UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+UnityEngine.SceneManagement;
 
-public class coletar : MonoBehaviour { int pegar;
-
-// Start is called before the first frame update
-void Start(){
-
-    pegar = 1;
-
-}
-
-private void OnCollisionEnter(Collision collision)
+public class coletar : MonoBehaviour
 {
-    Debug.Log(collision.gameObject.tag);
-    switch (collision.gameObject.tag)
-    {
-        case "caixa":
-            Destroy(collision.gameObject);
-            break;
+    int pegar;
+
+    // Start is called before the first frame update
+    void Start(){
+        pegar = 1;
 
     }
 
-}
-private void OnTriggerEnter(Collider collision)
-{
-    Debug.Log(collision.gameObject.tag);
-    Debug.Log(pegar);
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "caixa":
+                Destroy(collision.gameObject);
+                break;
 
-}
-// Update is called once per frame void Update(){ if (pegar = 4){ SceneManager.LoadScene("cena3")
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        Debug.Log(pegar);
+    }
+
+ // Update is called once per frame
+    void Update(){
+if (pegar >= 4){
+SceneManager.LoadScene("cena3")
 
 }
 
@@ -208,102 +215,121 @@ private void OnTriggerEnter(Collider collision)
 
 Código de coletar da terceira cena:
 
-using System.Collections; using System.Collections.Generic; using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class coletar : MonoBehaviour { int pegar;
-
-// Start is called before the first frame update
-void Start(){
-
-
-}
-
-private void OnCollisionEnter(Collision collision)
+public class coletar : MonoBehaviour
 {
-    Debug.Log(collision.gameObject.tag);
-    switch (collision.gameObject.tag)
-    {
-        case "estatua":
-            Destroy(collision.gameObject);
-            break;
+    int pegar;
+
+    // Start is called before the first frame update
+    void Start(){
 
     }
 
-}
-private void OnTriggerEnter(Collider collision)
-{
-    Debug.Log(collision.gameObject.tag);
-   
-}
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "estatua":
+                Destroy(collision.gameObject);
+                break;
+
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+       
+    }
 
 }
 
 Código da porta:
 
-using System.Collections; using System.Collections.Generic; using UnityEngine; UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+UnityEngine.SceneManagement;
 
-public class sair : MonoBehaviour { // Start is called before the first frame update void Start(){
-
-
-}
-
-private void OnCollisionEnter(Collision collision)
+public class sair : MonoBehaviour
 {
-    Debug.Log(collision.gameObject.tag);
-    switch (collision.gameObject.tag)
-    {
-        case "porta":
-if (Input.GetKey(KeyCode.E)){ SceneManager.LoadScene("cena2"); } break;
+    // Start is called before the first frame update
+    void Start(){
 
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "porta":
+if (Input.GetKey(KeyCode.E)){
+SceneManager.LoadScene("cena2");
 }
-private void OnTriggerEnter(Collider collision)
-{
-    Debug.Log(collision.gameObject.tag);
+                break;
+
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+    }
 
 }
 
-}
+*Mudança de Cena (SceneManager):*
+- O código serve para mudar a cena atual para "cena2", quando detectar a colisão com o objeto que possui a tag "porta", e o jogador pressionar a tecla E.
+- SceneManager.LoadScene("cena2") é usado para carregar a outra cena. Essa função faz parte da API SceneManagement do Unity, que permite alternar entre diferentes cenas do jogo.
 
 Código para mudança de cena:
 
-using System.Collections; using System.Collections.Generic; using UnityEngine; UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+UnityEngine.SceneManagement;
 
-public class coletar : MonoBehaviour { int pegar;
-
-// Start is called before the first frame update
-void Start(){
-
-    pegar = 1;
-
-}
-
-private void OnCollisionEnter(Collision collision)
+public class coletar : MonoBehaviour
 {
-    Debug.Log(collision.gameObject.tag);
-    switch (collision.gameObject.tag)
-    {
-        case "caixa":
-            Destroy(collision.gameObject);
-            break;
+    int pegar;
+
+    // Start is called before the first frame update
+    void Start(){
+        pegar = 1;
 
     }
 
-}
-private void OnTriggerEnter(Collider collision)
-{
-    Debug.Log(collision.gameObject.tag);
-    Debug.Log(pegar);
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "caixa":
+                Destroy(collision.gameObject);
+                break;
+
+        }
+    }
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        Debug.Log(pegar);
+    }
+
+ // Update is called once per frame
+    void Update(){
+if (pegar >= 4){
+SceneManager.LoadScene("cena3")
 
 }
-// Update is called once per frame void Update(){ if (pegar = 4){ SceneManager.LoadScene("cena3")
 
 }
 
 }
 
-}
 
 Assets utilizados:
 
