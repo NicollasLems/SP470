@@ -54,42 +54,45 @@ Classes e Objetos da câmera:
 
 Movimentação:
 
-Classes e Objetos:
+*Classes e Objetos:*
 - A classe "movimento" herda de MonoBehaviour, permitindo que o script seja anexado à objetos em Unity. Usamos essa classe para movimentar, controlar, a câmera, que será o nosso personagem principal (jogo em primeira pessoa).
-Variáveis de Instância:
 
-- Vector3 m: essa variável é um vetor de posição tridimensional (eixos X, Y e Z). Ela é usada para armazenar os valores de movimento e definir a posição do objeto.
-Função Start():
+*Variáveis de Instância:*
+- *Vector3 m:* Essa variável é um vetor de posição tridimensional (eixos X, Y e Z). Ela é usada para armazenar os valores de movimento e definir a posição do objeto.
 
+*Função Start():*
 - Nesse método definimos a posição inicial do nosso objeto, usando transform.position e o vetor m. Após essa definição, a variável m é redefinida para (0, 0, 0).
-Função Update():
 
-Este método é utilizado para detectar entradas do teclado e mover o objeto com base nelas (as entradas).
-Captura de Entrada do Usuário:
+*Função Update():*
+- Este método é utilizado para detectar entradas do teclado e mover o objeto com base nelas (as entradas).
 
-Utilizamos a função Input.GetKey(), para detectar se determinada tecla está sendo pressionada: -- KeyCode.D: Move o objeto para a direita (aumentando o valor de m.x). -- KeyCode.A: Move o objeto para a esquerda (diminuindo o valor de m.x). -- KeyCode.W: Move o objeto para frente (aumentando o valor de m.z). -- KeyCode.S: Move o objeto para trás (diminuindo o valor de m.z).
-A função transform.Translate(m) aplica movimento ao objeto baseado nos valores do vetor m.
-Manipulação de Transformações:
+*Captura de Entrada do Usuário:*
+- Utilizamos a função Input.GetKey(), para detectar se determinada tecla está sendo pressionada:
+--> *KeyCode.D:* Move o objeto para a direita (aumentando o valor de m.x).
+--> *KeyCode.A:* Move o objeto para a esquerda (diminuindo o valor de m.x).
+--> *KeyCode.W:* Move o objeto para frente (aumentando o valor de m.z).
+--> *KeyCode.S:* Move o objeto para trás (diminuindo o valor de m.z).
+- A função transform.Translate(m) aplica movimento ao objeto baseado nos valores do vetor m.
 
-transform.position: usamos está propriedade para definir a posição do objeto na cena. Essa propriedade também é usada para restringir o movimento do objeto dentro da cena.
-Limites de Movimento:
+*Manipulação de Transformações:*
+- *transform.position:* Usamos está propriedade para definir a posição do objeto na cena. Essas propriedade também é usada pra restringir o movimento do objeto dentro da cena.
 
-Impusemos limites às coordenadas X, Y e Z do objeto. Isso evita que ele ultrapasse os limites da cena.
-Reset de Movimento:
+*Limites de Movimento:*
+- Impusemos limites às coordenadas X, Y e Z do objeto. Isso evita que ele ultrapasse os limites da cena.
 
-No final de cada frame, o vetor m é redefinido para 0, usando a função m.Set(0, 0, 0). Isso garanti que o movimento só ocorra quando o jogador pressionar uma tecla, e que o objeto pare de se mover quando nenhuma tecla estiver sendo pressionada.
-Estrutura Condicional (if):
+*Reset de Movimento:*
+- No final de cada frame, o vetor m é redefinido para 0, usando a função m.Set(0, 0, 0). Isso garanti que o movimento só ocorra quando o jogador pressionar uma tecla, e que o objeto pare de se mover quando nenhuma tecla estiver sendo pressionada.
 
-Fizemos o uso de várias condições "if". Elas são usadas para verificar a entrada do usuário, e aplicar as restrições de movimento, garantindo que o objeto se comporte conforme o esperado. Um exemplo é o trecho: "if (transform.position.y 2.0){
+*Estrutura Condicional (if):*
+- Fizemos o uso de várias condições "if". Elas são usadas para verificar a entrada do usuário, e aplicar as restrições de movimento, garantindo que o objeto se comporte conforme o esperado. Um exemplo é o trecho:
+"if (transform.position.y < 2.0){
+            transform.position = new Vector3(transform.position.x, 2.0f, transform.position.z);
+        }
 
-
-      transform.position = new Vector3(transform.position.x, 2.0f, transform.position.z);
-  }
-
-  if (transform.position.y  2.0)
-  {
-      transform.position = new Vector3(transform.position.x, 2.0f, transform.position.z);
-  }"
+        if (transform.position.y > 2.0)
+        {
+            transform.position = new Vector3(transform.position.x, 2.0f, transform.position.z);
+        }"
 O trecho acima serve para garantir que quando o jogador rotacionar a câmera no eixo X e Y, a câmera não se movimente no eixo Y.
 
 Colision classes e objetos:
