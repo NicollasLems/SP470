@@ -3,9 +3,8 @@
 <h3>Integrantes: João Paulo B. P. C. Filho, Kevin Novais Bezerra, Murilo Rangel de França e Nicollas Lemes de Matos</h3>
 
 <h3>Série: 2º Programação de Jogos Digitais</h3>
-
-
-<h4><strong>- Tema:</strong></h4>
+<br>
+<h3>- Tema:</h3>
 O trabalho baseia-se no tema “São Paulo 470 anos” com isso decidimos desenvolver uma temática atemporal, por isso escolhemos o “racismo e a escravidão” que são assuntos que repercutem até os dias de hoje, queríamos mostrar como isso ainda persiste só que de forma mascarada, com isso vieram as pesquisas sobre os locais de São Paulo e suas histórias. Como primeiro local escolhemos o Bairro da Liberdade, muito pelo seu contexto histórico antes chamado de Campo da Força onde os escravos e transgressores da lei eram mortos sendo essa a sua "Liberdade" a região também era ocupada majoritariamente por pessoas negras e hoje é conhecido como Japão-Liberdade uma maneira de tentar apagar o passado desse lugar, outro motivo foi a estátua da Madrinha Eunice (fundadora da primeira escola de samba de São Paulo e ainda funcional, a Lavapés, na década de 30 e foi ativista do movimento negro), em 2023 ocorreu um discussão a respeito de um show que cobriu totalmente a estátua gerando uma grande repercussão e pensamos em adicionar ela ao jogo, como queríamos representar o passado, a outra parte do jogo seria uma vila representado um tempo muito antes da industrialização da cidade de São Paulo.
 
 - Proposta do jogo:<br>
