@@ -125,48 +125,7 @@ Esse método é chamado, exclusivamente, quando o objeto entra em um Trigger Col
 Similar ao método anterior (collision.gameObject.tag), ele usa collision.gameObject.tag para verificar a tag do objeto.<br>
 Em nosso código também usamos um Debug.Log para exibir no console tanto a tag do objeto, quanto o valor de pegar.
 
-- Músicas código:
-using UnityEngine;
 
-public class MusicManager : MonoBehaviour
-{
-    public AudioSource audioSource;  // Componente Audio Source
-    public AudioClip[] musicTracks;  // Array de músicas
-    private int currentTrackIndex = 0;  // Índice da música atual
-
-    void Start()
-    {
-        if (musicTracks.Length > 0)
-        {
-            audioSource.clip = musicTracks[currentTrackIndex];  // Define a primeira música
-            audioSource.Play();  // Toca a primeira música
-        }
-    }
-
-    void Update()
-    {
-        // Verifica se a música atual terminou de tocar
-        if (!audioSource.isPlaying)
-        {
-            PlayNextTrack();  // Toca a próxima música
-        }
-    }
-
-    void PlayNextTrack()
-    {
-        currentTrackIndex++;  // Vai para a próxima música
-
-        // Se o índice ultrapassar o número de músicas, volta para a primeira
-        if (currentTrackIndex >= musicTracks.Length)
-        {
-            currentTrackIndex = 0;
-        }
-
-        // Define e toca a próxima música
-        audioSource.clip = musicTracks[currentTrackIndex];
-        audioSource.Play();
-    }
-}
 
 - Manipulação de Tags:<br>
 O uso de tags permite identificar o tipo de objeto com o qual o personagem está interagindo. As tags são strings atribuídas a objetos no Unity para facilitar sua categorização e manipulação. Um exemplo, é para diferenciar os objetos com a tag "caixa", de outros objetos.
