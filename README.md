@@ -162,7 +162,7 @@ Os assets da Madrinha Eunice e da Paper Low foram pegos no site Sketchfab
 
 <br>
 Link do drive:
-https://drive.google.com/drive/folders/1ohX-2R7PknoC_GAVfwDm20zMsjciNwbL?usp=drive_link
+https://drive.google.com/drive/u/2/folders/1ohX-2R7PknoC_GAVfwDm20zMsjciNwbL
 <br>
 <br>
 
