@@ -162,7 +162,7 @@ Os assets da Madrinha Eunice e da Paper Low foram pegos no site Sketchfab
 <br>
 Link do drive:
 https://drive.google.com/drive/folders/1ohX-2R7PknoC_GAVfwDm20zMsjciNwbL?usp=drive_link
-
+<br>
 <br>
 
 ![Pista 1](https://github.com/user-attachments/assets/2cd413c6-692b-4ede-8b2e-807517d1f95d)
@@ -179,4 +179,32 @@ https://drive.google.com/drive/folders/1ohX-2R7PknoC_GAVfwDm20zMsjciNwbL?usp=dri
 
 ![Pista 4](https://github.com/user-attachments/assets/9b3e1580-cd6e-4eea-abbb-8f8562ee6077)
 <h5>Imagem da Pista 4</h5>
+<br>
+
+![Tela Inicial](https://github.com/user-attachments/assets/61132e4d-92d8-4b75-9352-e49aa96437cd)
+<h5>Imagem da Tela do Inicial do Jogo</h5>
+<br>
+
+![Imagem 1 - Cena 1](https://github.com/user-attachments/assets/035aafc8-6cd0-49c7-8fe0-6751319d6fc9)
+<h5>Imagem da Cena 1</h5>
+<br>
+
+![Imagem 2 - Cena 1](https://github.com/user-attachments/assets/875e1748-c4d4-4cd3-8b2c-5e37e2ab668d)
+<h5>Imagem da Cena 1</h5>
+<br>
+
+![Imagem 1 - Cena 2](https://github.com/user-attachments/assets/ebd60ab7-4b89-4158-a8c5-1e44581c9c25)
+<h5>Imagem da Cena 2</h5>
+<br>
+
+![Imagem 2 - Cena 2](https://github.com/user-attachments/assets/63b840e2-3a79-4959-9c3a-4b74e89f23ff)
+<h5>Imagem da Cena 2</h5>
+<br>
+
+![Imagem 1 - Cena 3](https://github.com/user-attachments/assets/e3a89a9d-d93c-41a6-a5ba-05890da0c133)
+<h5>Imagem da Cena 3</h5>
+<br>
+
+![Imagem 2 - Cena 3](https://github.com/user-attachments/assets/7c44ab88-5e97-4bcd-a62b-2c268bcd5cf2)
+<h5>Imagem da Cena 3</h5>
 <br>
